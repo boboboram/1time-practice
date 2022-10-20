@@ -1,0 +1,47 @@
+body {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-weight: sans-serif;
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: inset;
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-img {
+  width: 250px;
+  transform: translateX(320px) translateY(-115px);
+}
+
+.a-group {
+  transform: translateX(800px) translateY(-220px);
+  margin-top: 0px;
+}
+
+nav {
+  transform: translateY(-185px);
+  width: 530px;
+}
+
+input {
+  transform: translateY(-185px);
+  margin-left: 10px;
+}
+
+.search-img {
+  width: 27px;
+  transform: translateY(-185px);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  transform: translateX(-50px) translateY(-185px);
+  cursor: pointer;
+}
